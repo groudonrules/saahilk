@@ -1,0 +1,154 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+#myName{
+  font-size: 32px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+.topthreeparagraphs{
+  color:#FF8C00
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://www.nycgo.com/images/pages/347/river-skyline-views-brooklyn-nyc-photo-julienne-schaer-010__large.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+#firstfav {
+  color:#1E90FF;
+  font-weight: 300;
+  font-size: 8px;
+  text-align: center;
+    
+  
+}
+#secondfav {
+  color:#fbd1d5;
+  font-weight: 280;
+  font-size: 12px;
+  text-align: center;
+  
+}
+#thirdfav {
+  color:#20B2AA;
+  font-weight: 320;
+  font-size: 14px;
+  text-align: center;
+  
+}
+#fourthfav {
+  color:#F08080;
+  font-weight: 305;
+  font-size: 10px;
+  text-align: center;
+  
+}
+
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+#quotes{
+  font-weight: bold;
+  text-align: center;
+  
+}
+#firstquote{
+  color:#228B22;
+  font-size:32px;
+  font-family:Helvetica;
+}
+#secondquote{
+  color:#fbd1d5;
+  font-size:36px;
+  font-family:Arial;
+}
+#thirdquote{
+  color:#00FFFF;
+  font-size:20px;
+  font-family:sans-serif;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
